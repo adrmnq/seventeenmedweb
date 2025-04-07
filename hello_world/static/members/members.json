@@ -1,0 +1,253 @@
+{
+    "leader": [
+        {
+            "name": "สุลัยมาน แวนาแว",
+            "nick": "มัง",
+            "id": "031",
+            "imgurl": "/static/members/31.png",
+            "handle": "slm_mung"
+        }
+    ]
+    ,
+    "treasurer": [
+        {
+            "name": "ปัญจพล ปิ่นแก้ว",
+            "nick": "บีม",
+            "id": "020",
+            "imgurl": "/static/members/20.png",
+            "handle": "beam_panjapon"
+        },{
+            "name": "ชรินทร์ทิพย์ ชามทอง",
+            "nick": "พรีม",
+            "id": "003",
+            "imgurl": "/static/members/3.png",
+            "handle": "iamprxxm_pm"
+        }
+    ]
+    ,
+    "members": [
+        {
+            "name": "วาริษ ปุติ",
+            "nick": "วาริษ",
+            "id": "(65)026",
+            "imgurl": "/static/members/0.png",
+            "handle": "vvaris.pt"
+        },{
+            "name": "กัญญาณัฐ สมิงแก้ว",
+            "nick": "เลม่อน",
+            "id": "001",
+            "imgurl": "/static/members/1.png",
+            "handle": "lem0nism__"
+        },{
+            "name": "จั๊ฟนีย์ สะมาแอ",
+            "nick": "จั้ฟ",
+            "id": "002",
+            "imgurl": "/static/members/2.png",
+            "handle": "jfneener"
+        },{
+            "name": "ชรินทร์ทิพย์ ชามทอง",
+            "nick": "พรีม",
+            "id": "003",
+            "imgurl": "/static/members/3.png",
+            "handle": "iamprxxm_pm"
+        },{
+            "name": "ซาเฮดอิสกันดา อาเบะ",
+            "nick": "ซาเฮด",
+            "id": "004",
+            "imgurl": "/static/members/4.png",
+            "handle": "xp.sahed"
+        },{
+            "name": "ณัฐกร จันทร์เมือง",
+            "nick": "ณัฐ",
+            "id": "005",
+            "imgurl": "/static/members/5.png",
+            "handle": "nutt.nakk"
+        },{
+            "name": "ณัฐฐิภร สาเเม",
+            "nick": "ซีตี",
+            "id": "006",
+            "imgurl": "/static/members/6.png",
+            "handle": "nqtthiye"
+        },{
+            "name": "ณิชาพร จันทร์แก้ว",
+            "nick": "พริว",
+            "id": "007",
+            "imgurl": "/static/members/7.png",
+            "handle": "prew__38"
+        },{
+            "name": "ดาเนีย เบ็ญจลักษณ์",
+            "nick": "ดาเนีย",
+            "id": "008",
+            "imgurl": "/static/members/8.png",
+            "handle": "dn_felbgh"
+        },{
+            "name": "แดนคณิต ขวัญนุ้ย",
+            "nick": "แดน",
+            "id": "009",
+            "imgurl": "/static/members/9.png",
+            "handle": "_.doorairnor._"
+        },{
+            "name": "ธนชัย เจียรนัย",
+            "nick": "เบนซ์",
+            "id": "010",
+            "imgurl": "/static/members/10.png",
+            "handle": "tanachaijiaranai"
+        },{
+            "name": "นนทพล หิรัญ",
+            "nick": "นนท์",
+            "id": "011",
+            "imgurl": "/static/members/11.png",
+            "handle": "non.t007"
+        },{
+            "name": "นภัสดล ได้รูป",
+            "nick": "แม็ค",
+            "id": "012",
+            "imgurl": "/static/members/12.png",
+            "handle": "naphasadon"
+        },{
+            "name": "นัจมีย์ กามะ",
+            "nick": "นัจมีย์",
+            "id": "013",
+            "imgurl": "/static/members/13.png",
+            "handle": "ggnajamee"
+        },{
+            "name": "นัทธมน คงเทียบ",
+            "nick": "โมบายล์",
+            "id": "014",
+            "imgurl": "/static/members/14.png",
+            "handle": "_mmn2048"
+        },{
+            "name": "นัสริน ศรีศรยุทธ์",
+            "nick": "นัสริน",
+            "id": "015",
+            "imgurl": "/static/members/15.png",
+            "handle": "my.nass"
+        },{
+            "name": "นาบีล บาราเฮง",
+            "nick": "นาบีล",
+            "id": "016",
+            "imgurl": "/static/members/16.png",
+            "handle": "nbill.bh"
+        },{
+            "name": "นิซ่อรีฟ สุไลมาน",
+            "nick": "ซอรีฟ",
+            "id": "017",
+            "imgurl": "/static/members/17.png",
+            "handle": "thenizorif_nzr"
+        },{
+            "name": "นิรดา แกสมาน",
+            "nick": "ฮันนาน",
+            "id": "018",
+            "imgurl": "/static/members/18.png",
+            "handle": "_hunnan_nrd"
+        },{
+            "name": "นูรีณ ยูโซะ",
+            "nick": "นู",
+            "id": "019",
+            "imgurl": "/static/members/19.png",
+            "handle": "n0.0riin"
+        },{
+            "name": "ปัญจพล ปิ่นแก้ว",
+            "nick": "บีม",
+            "id": "020",
+            "imgurl": "/static/members/20.png",
+            "handle": "beam_panjapon"
+        },{
+            "name": "ฟาร่า วารีสมาน",
+            "nick": "ฟาร่า",
+            "id": "021",
+            "imgurl": "/static/members/21.png",
+            "handle": "ffaraawr"
+        },{
+            "name": "ฟิรดาว บือราเฮง",
+            "nick": "ฟิร",
+            "id": "022",
+            "imgurl": "/static/members/22.png",
+            "handle": "ffiradao_"
+        },{
+            "name": "ภาราตี เจ๊ะยอ",
+            "nick": "ซัลวา",
+            "id": "023",
+            "imgurl": "/static/members/23.png",
+            "handle": "ssallyx_vwa"
+        },{
+            "name": "มุสตากีม หะยีนาแว",
+            "nick": "กิม",
+            "id": "024",
+            "imgurl": "/static/members/24.png",
+            "handle": "qinxqong"
+        },{
+            "name": "รสิตา เจตวรานนท์",
+            "nick": "ซัมมี่",
+            "id": "025",
+            "imgurl": "/static/members/25.png",
+            "handle": "sum.merryy"
+        },{
+            "name": "ราฟเฟล นิยมเดชา",
+            "nick": "ฟิน",
+            "id": "026",
+            "imgurl": "/static/members/26.png",
+            "handle": "phiin_phin"
+        },{
+            "name": "วงศธร จรัสวิโรจน์",
+            "nick": "ม่อน",
+            "id": "027",
+            "imgurl": "/static/members/27.png",
+            "handle": "chaomonne"
+        },{
+            "name": "วรดา ลิ้มวัฒนายิ่งยง",
+            "nick": "แพรว",
+            "id": "028",
+            "imgurl": "/static/members/28.png",
+            "handle": "prw_.0._"
+        },{
+            "name": "วิฮัษมิณย์ มะ",
+            "nick": "วิ",
+            "id": "029",
+            "imgurl": "/static/members/29.png",
+            "handle": "wiihqsmin_"
+        },{
+            "name": "สิรวิชญ์ มาถนอม",
+            "nick": "ปู๊น",
+            "id": "030",
+            "imgurl": "/static/members/30.png",
+            "handle": "sir.witttttt"
+        },{
+            "name": "สุลัยมาน แวนาแว",
+            "nick": "มัง",
+            "id": "031",
+            "imgurl": "/static/members/31.png",
+            "handle": "slm_mung"
+        },{
+            "name": "อดี๊ป หีมสุหรี",
+            "nick": "อดี๊ป",
+            "id": "032",
+            "imgurl": "/static/members/32.png",
+            "handle": "diip._"
+        },{
+            "name": "อภิวิชญ์ ตันติศุภชัย",
+            "nick": "ไท้",
+            "id": "033",
+            "imgurl": "/static/members/33.png",
+            "handle": "ap_tai"
+        },{
+            "name": "อัฟฎ็อล การีนา",
+            "nick": "อัฟฎ็อล",
+            "id": "034",
+            "imgurl": "/static/members/34.png",
+            "handle": "afdolkrn__"
+        },{
+            "name": "อาซูรี โต๊ะมีนา",
+            "nick": "อาร์ม",
+            "id": "035",
+            "imgurl": "/static/members/35.png",
+            "handle": "p_xqpasr"
+        },{
+            "name": "อูมัยราห์ เด็งนิ",
+            "nick": "อู",
+            "id": "036",
+            "imgurl": "/static/members/36.png",
+            "handle": "umaira_oow"
+        }
+    ]
+}

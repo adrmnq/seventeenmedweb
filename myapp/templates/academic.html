@@ -1,12 +1,105 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <a href="/">Home</a>
-    <a href="/academic">Academic</a>
-    <a href="/member">Member</a>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}
+    <title>MedPNU17 | MORNARA - Academic</title>
+{% endblock %}
+
+{% block content %}
+    {% load socialaccount %}
+    {% csrf_token %}
+    {% if user.is_authenticated %}
+    <section class="section is-small has-text-centered">
+        <p class="prompt-regular title is-1">Welcome, {{ user.username }} to Academic!</p>
+    </section>
+    {% else %}
+    <div id="blur-overlay">
+        <div class="box">
+                <div class="">
+                    <div class="has-text-centered ">
+                        <p class="subtitle is-2">
+                        <span class="icon is-large">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                        <br>
+                            This page is locked, you have to login first</p>
+                        <button class="js-modal-trigger button is-light" data-target="modal-js-blur"><strong>Log in</strong></button>
+                    </div>
+                </div>
+        </div>
+        <!-- Blur's modal -->
+        <div class="modal" id="modal-js-blur">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="prompt-bold modal-card-head">
+                    <p class="modal-card-title">Login | Signup</p>
+                    <button class="delete" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                {% load socialaccount %}
+                {% csrf_token %}
+                <div class="has-text-centered">
+                    <a href="{% provider_login_url 'google' %}" class="button" target="_top">Login with Google</a>
+                </div>
+                </section>
+                <footer class="modal-card-foot has-text-centered">
+                    <div class="buttons is-centered">
+                        <button class="button is-success">Done</button>
+                        <button class="button">Cancel</button>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    {% endif %}    
+<hr>
+
+<div style="padding-left: 5%; padding-right: 5%;">
+    <div class="">
+        <h1 class="title is-4 has-text-centered prompt-regular">ปี 1 เทอม 1</h1>
+        <div class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+        {% for i in year1sem1 %}
+            <a class="box" style="width: 15rem;" href="{{ i.url }}">
+                <figure class="image is-square">
+                    <img src="{{ i.imgurl }}"/>
+                </figure>
+            </a>
+        {% endfor %}
+        </div>
+        <hr>
+        <h1 class="title is-4 has-text-centered prompt-regular">ปี 1 เทอม 2</h1>
+        <div class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+        {% for i in year1sem2 %}
+            <a class="box" style="width: 15rem;" href="{{ i.url }}">
+                <figure class="image is-square">
+                    <img src="{{ i.imgurl }}"/>
+                </figure>
+            </a>
+        {% endfor %}
+        </div>
+    </div>
+    <hr>
+    <div class="">
+        <h1 class="title is-4 has-text-centered prompt-regular">ปี 2 เทอม 1</h1>
+        <div class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+        {% for i in year2sem1 %}
+            <a class="box" style="width: 15rem;" href="{{ i.url }}">
+                <figure class="image is-square">
+                    <img src="{{ i.imgurl }}"/>
+                </figure>
+            </a>
+        {% endfor %}
+        </div>
+        <hr>
+        <h1 class="title is-4 has-text-centered prompt-regular">ปี 2 เทอม 2</h1>
+        <div class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+        {% for i in year2sem2 %}
+            <a class="box" style="width: 15rem;" href="{{ i.url }}">
+                <figure class="image is-square">
+                    <img src="{{ i.imgurl }}"/>
+                </figure>
+            </a>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

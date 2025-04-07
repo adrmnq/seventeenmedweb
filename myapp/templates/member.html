@@ -1,10 +1,79 @@
-<html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}
+    <title>MedPNU17 | MORNARA - Members</title>
+{% endblock %}
+
+{% block content %}      
+{% load static %}
+<div class="prompt-bold">
+  <section class="section is-small has-text-centered">
+    <h1 class="title is-1">Members</h1>
+    <hr>
+    <h3 class="subtitle is-5">สมาชิกนักศึกษาแพทย์มนร.รุ่นที่ 17 ทั้งหมด 37 คน</h3>
+    <hr>
+</section>
+</div>
+<div class="prompt-bold">
+<h1 class="title is-4 has-text-centered">ประธานรุ่น MedPNU 17</h1>
+<div class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center" style="padding-left: 5%; padding-right: 5%;">
+  {% for i in leader %}
+  <div class="box" style="width: 15rem;">
+    <figure class="image is-square">
+      <img src="{{ i.imgurl }}"/>
+    </figure>
+    <div class="">
+      <div class="has-text-centered">
+        <p class="title is-4" style="padding-top: 9px;">{{ i.id }} {{ i.nick }}</p>
+        <p class="subtitle is-5">{{ i.name }}</p>
+        <a href="https://instagram.com/{{ i.handle }}" class="subtitle is-6">@{{ i.handle }}</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+</div>
+<div class="prompt-bold">
+<hr>
+<h1 class="title is-4 has-text-centered">เหรัญญิก MedPNU 17</h1>
+<div class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center" style="padding-left: 5%; padding-right: 5%;">
+{% for i in treasurer %}
+
+    <div class="box" style="width: 15rem;">
+      <figure class="image is-square">
+        <img src="{{ i.imgurl }}"/>
+      </figure>
+      <div class="">
+        <div class="has-text-centered">
+          <p class="title is-4" style="padding-top: 9px;">{{ i.id }} {{ i.nick }}</p>
+          <p class="subtitle is-5">{{ i.name }}</p>
+          <a href="https://instagram.com/{{ i.handle }}" class="subtitle is-6">@{{ i.handle }}</a>
+        </div>
+      </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+<div class="prompt-bold">
+<hr>
+<h1 class="title is-4 has-text-centered">สมาชิก MedPNU 17</h1>
+<div class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center" style="padding-left: 5%; padding-right: 5%;">
+{% for i in members %}
+    <div class="box" style="width: 15rem;">
+        <figure class="image is-square">
+            <img
+          src="{{ i.imgurl }}"
+        />
+      </figure>
+      <div class="">
+        <div class="has-text-centered">
+          <p class="title is-4" style="padding-top: 9px;">{{ i.id }} {{ i.nick }}</p>
+          <p class="subtitle is-6">{{ i.name }}</p>
+          <a href="https://instagram.com/{{ i.handle }}" class="subtitle is-6">@{{ i.handle }}</a>
+        </div>
+    </div>
+    </div>
+{% endfor %}
+</div>
+</div>
+{% endblock %}

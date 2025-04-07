@@ -1,20 +1,149 @@
-<html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MORNARA Home</title>
-</head>
-<body>
-    <h1>MedPNU 17</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi aspernatur quibusdam autem quas, dicta porro. Consequuntur id aspernatur vero qui eligendi. Commodi sequi laborum consequatur consequuntur minus cumque magni corporis!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, magni vel, nam sed labore, quod cupiditate ad autem ea esse delectus ut optio suscipit quia obcaecati voluptatem ipsam iste cumque!</p>
-    <hr>
-    <a href="/">Home</a>
-    <a href="/academic">Academic</a>
-    <a href="/member">Member</a>
+{% extends "base.html" %}
 
-    <footer>
-        <p>adrmnq</p>
-    </footer>
-</body>
-</html> 
+{% block title %}
+    <title>MedPNU17 | MORNARA - Home</title>
+{% endblock %}
+
+{% block content %}
+    {% load static %}
+    <!-- Header -->
+    <section class="section is-small has-text-centered">
+        <h1 class="prompt-bold title is-1">MedPNU 17</h1>
+        <h3 class="prompt-bold subtitle is-5">เว็บไซต์สำหรับ นศพ. มนร. รุ่นที่ 17</h3>
+    </section>
+    <hr>
+
+    <!-- Buttons -->
+    <section class="section is-small has-text-centered is-gap-3 prompt-semibold">
+        <div class="has-text-centered">
+            <a href="/academic" class="button is-primary is-light is-large">Academic</a>    
+        </div>
+        <br>
+        <div class="is-flex is-flex-direction-row is-gap-2 is-flex-wrap-wrap is-justify-content-center" style="padding-inline: 5%;">
+        <a href="https://www.canva.com/brand/join?token=72NU2StcyCkuOJA39W5T4g&brandingVariant=edu&referrer=team-invite" class="button" target="_blank">Canva</a>
+        <a href="https://student.pnu.ac.th" class="button">PNUCM</a>
+        <a href="https://classroom.google.com/u/0/" class="button">Google Classroom</a>
+        <a href="/links" class="button">Useful Links</a>
+        <a href="https://sites.google.com/pnu.ac.th/17th-mdpnu" class="button">Evaluation</a>
+        <a href="https://www.pnu.ac.th" class="button">PNU Website</a>
+        <a href="https://www.med.pnu.ac.th" class="button">MedPNU</a>
+        <a href="https://www.hospital.pnu.ac.th" class="button">Galya Hospital</a>
+        </div>
+    </section>
+    <hr>
+    <!-- Calendar -->
+    <section class="has-text-centered">
+        <h2 class="prompt-semibold title is-3">Google Calendar</h2>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FBangkok&showPrint=0&showTitle=0&showNav=0&showTz=0&mode=AGENDA&title=MedPNU17%20Calendar&src=NTIwNDhiNmUxMGNmYjkxNzJlZTI0YTYwMjU3OWMyOWVmM2IxNzBkNTljMzQ3YTFlOGYyNzM1OWU3ZDY2NzJkOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=NDM0MmFjZGUzZjA0MTk4NDI2MzJiYzRkZTE2MmViZjA4NmU4M2Y2MDZmNjJjYTQwZmYzOTkxNWFiNmZiZDRkZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=MTU5YTZlMmU3OTFkMmVmZTcxZDVmYWE4MjU2YTQzNTRhNTk0ZmM1OTRjZDRlN2FhZTc5YzFkYWExZjM5N2RhMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZjQ4ZTVkOWQ2MTEyYWFjZDQwOTA2YzM3YmY5YTUyMGQ3MmRmNjc3Nzk0OGRhNTBjM2JjN2E0Mjg3ZTlmNDQ0ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZmM5NzU0MDZkNWUzMTE2MDZlNTYwZjhjMDQ4YTU2YzZmOTdmYzE4YTcyZGEyYjA1YjQ0MTk5MzUyZjA0MmIwMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=YTQ2ZTU2YjhhMDE2ODJkZGMwYWM1NTRiYjZkNWI5Yzg1MTY0ZTk1ZmYzMzQyOTE3NTM0MmY2MTliN2I2MTI2ZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%234285F4&color=%234285F4&color=%234285F4&color=%234285F4&color=%234285F4&color=%234285F4" style="border-width:0" width="85%" height="600" frameborder="0" scrolling="no"></iframe>
+    </section>
+    <hr>
+
+    <!-- Contact -->
+    <section class="prompt-bold">
+        <h1 class="title is-3 has-text-centered">Follow us</h1>
+        <br>
+        <div class="is-flex is-flex-direction-row is-gap-3 is-flex-wrap-wrap is-justify-content-center" style="padding-inline: 5%;">
+            <div class="box" style="width: 21rem;">
+                <div class="">
+                    <div class="has-text-centered">
+                        <p class="title is-4" style="padding-top: 9px;">มนร.</p>
+                        <p class="subtitle is-5">(PNU)</p>
+                        <p class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+                            <a href="https://instagram.com/pr.pnu" class="button is-link is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-instagram"></i></span>
+                                <span>pr.pnu</span>
+                            </a>
+                            <a href="https://facebook.com/PrincessofNaradhiwasUniversity" class="button is-link is-light is-rounded is-outlined">
+                            <span class="icon"><i class="fab fa-facebook"></i></span>
+                                <span>PNU</span>
+                            </a>
+                            <a href="https://youtube.com/@pnuradionara" class="button is-danger is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>@pnuradionara</span>
+                            </a>
+                            <a href="https://tiktok.com/@pr.pnu" class="button is-black is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-tiktok"></i></span>
+                                <span>@pr.pnu</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="width: 21rem;">
+                <div class="">
+                    <div class="has-text-centered">
+                        <p class="title is-4" style="padding-top: 9px;">คณะแพทยศาสตร์ มนร.</p>
+                        <p class="subtitle is-5">(MedPNU)</p>
+                        <p class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+                            <a href="https://instagram.com/medpnu" class="button is-link is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-instagram"></i></span>
+                                <span>medpnu</span>
+                            </a>
+                            <a href="https://facebook.com/medpnu" class="button is-link is-light is-rounded is-outlined">
+                            <span class="icon"><i class="fab fa-facebook"></i></span>
+                                <span>medpnu</span>
+                            </a>
+                            <a href="https://youtube.com/@medpnu" class="button is-danger is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>@medpnu</span>
+                            </a>
+                            <a href="https://x.com/medpnu" class="button is-black is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-x-twitter"></i></span>
+                                <span>@medpnu</span>
+                            </a>
+                            <a href="https://tiktok.com/@medpnu" class="button is-black is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-tiktok"></i></span>
+                                <span>@medpnu</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="width: 21rem;">
+                <div class="">
+                    <div class="has-text-centered">
+                        <p class="title is-4" style="padding-top: 9px;">สโมสรนักศึกษาแพทย์ มนร.</p>
+                        <p class="subtitle is-5">(MedPNU Student Union)</p>
+                        <p class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+                            <a href="https://instagram.com/su.medpnu" class="button is-link is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-instagram"></i></span>
+                                <span>su.medpnu</span>
+                            </a>
+                            <a href="https://facebook.com/su.medpnu" class="button is-link is-light is-rounded is-outlined">
+                            <span class="icon"><i class="fab fa-facebook"></i></span>
+                                <span>su.medpnu</span>
+                            </a>
+                            <a href="https://tiktok.com/pr.pnu" class="button is-black is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-tiktok"></i></span>
+                                <span>@pr.pnu</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="width: 21rem;">
+                <div class="">
+                    <div class="has-text-centered">
+                        <p class="title is-4" style="padding-top: 9px;">นักศึกษาแพทย์ รุ่นที่ 17</p>
+                        <p class="subtitle is-5">(MedPNU 17)</p>
+                        <p class="is-flex is-flex-direction-row is-gap-1 is-flex-wrap-wrap is-justify-content-center">
+                            <a href="https://instagram.com/mhormornara17" class="button is-link is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-instagram"></i></span>
+                                <span>mhormornara17</span>
+                            </a>
+                            <a href="https://youtube.com/@medpnu17" class="button is-danger is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-youtube"></i></span>
+                                <span>@medpnu17</span>
+                            </a>
+                            <a href="https://tiktok.com/mhormornara17" class="button is-black is-rounded is-outlined">
+                                <span class="icon"><i class="fab fa-tiktok"></i></span>
+                                <span>@mhormornara17</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+{% endblock %}

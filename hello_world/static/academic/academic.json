@@ -1,0 +1,101 @@
+{
+    "ongoing": [
+        {
+            "imgurl": "/static/academic/408.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvs4v7VIUZgPF8Qf863wtskZ&si=tShbMtpns5Ev6HJ8"
+        }
+    ],
+    "year1sem1": [
+        {
+            "imgurl": "/static/academic/101.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvtX229FEJGLfqYI_DDaUdhi&si=wnKXpVIEjOkIE_S9"
+        },{
+            "imgurl": "/static/academic/102.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvvXW4Qz-3BH2j34T6JG8u6r&si=us6Q1PSkCa27T3yq"
+        },{
+            "imgurl": "/static/academic/103.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvt6cdl_74VqRS9KwSo5BaMk&si=YdyEqT9t0S9meWnS"
+        },{
+            "imgurl": "/static/academic/104.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvtUHJUHeQvmIdLZZNVcQmZE&si=shEMykPvWHKBjjIf"
+        },{
+            "imgurl": "/static/academic/105.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvsZwnxPuJ8b94q5IeeE4uo5&si=OKTdE7wNKrx0ahLP"
+        }
+    ],
+    "year1sem2": [
+        {
+            "imgurl": "/static/academic/201.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvsvR2uehj7QddPPFZX1X5eX&si=3d6IjcuZcWkhX6BS"
+        },{
+            "imgurl": "/static/academic/202.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvu1oZk93RFzijRX-CJ_-Uwn&si=GQkEXDWq39gDBY6G"
+        },{
+            "imgurl": "/static/academic/203.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvu3IECfCbi6aHi7IUViQff0&si=-Q0tKtJ2UNCdw6hT"
+        }
+    ],
+    "year2sem1": [
+        {
+            "imgurl": "/static/academic/301.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvs_pcpPVVCSisD66xsQ_d-m&si=ltqGnfEOv5lB4Xl0"
+        },{
+            "imgurl": "/static/academic/302.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvvnMfj69ioUp6uOgoJNIqxq&si=jk8I1Oj35bKYbZa9"
+        },{
+            "imgurl": "/static/academic/303.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvtcgb5r7AYylJnRbjLezyRE&si=3xgF3PSoYQ6eb6Uu"
+        },{
+            "imgurl": "/static/academic/304.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvttPagWRh0ZPkh6yO916iJl&si=ybTmv11X9QAF6YmF"
+        },{
+            "imgurl": "/static/academic/305.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvs2YG0wvZVaPVLqqD0BtFgU&si=PEoUe1TeGSSQqNEA"
+        },{
+            "imgurl": "/static/academic/306.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvv3NNvnxGcnXsyvSiFOy8b0&si=hoyrum5_bk0BmC9Z"
+        },{
+            "imgurl": "/static/academic/307.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvtm5m8ix1ltNYW0DmMHKhB6&si=m-pizBFu92KsRVZD"
+        },{
+            "imgurl": "/static/academic/308.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvuiMXSZBZkn74c-C5mgzE28&si=pyFfKBVDB2bpakhg"
+        },{
+            "imgurl": "/static/academic/309.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvtYrH_z7qxLINRJTFWHbvQO&si=_8ikm52A5My6HJeQ"
+        },{
+            "imgurl": "/static/academic/310.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvvzdf51URYMft_wb6BpByef&si=m7vceJueajH5b9NU"
+        },{
+            "imgurl": "/static/academic/311.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvvSq7qe3U5C2ZPS1MPhtyZY&si=63G5ko9B8DqpEShU"
+        }
+    ],
+    "year2sem2": [
+        {
+            "imgurl": "/static/academic/401.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvtAww4qU4Nhgrjt5e-9V2m-&si=eJjV--3Hi72Lhwi8"
+        },{
+            "imgurl": "/static/academic/402.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvt_cJO3YSF8d3Wh27apgIDF&si=tJKSuBN9l9waG34G"
+        },{
+            "imgurl": "/static/academic/403.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvt2Fm_NXjt1dvqcqIitIKaU&si=qBYJv-U8diaxRB29"
+        },{
+            "imgurl": "/static/academic/404.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvtTjUTTrXFBwlOevRyMLfKK&si=OmErIQnSCqssl--5"
+        },{
+            "imgurl": "/static/academic/405.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvvPJben7VsQZPwz0bL8y5bO&si=B5qATO2hm9ZWO4Az"
+        },{
+            "imgurl": "/static/academic/406.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvsu4A59kZNg2djFk6xiAope&si=cxYRX9AAty4fnh83"
+        },{
+            "imgurl": "/static/academic/407.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvvhoPtjHo4uDY3BFFVQMkKv&si=5gyMGTFbhhiD2XkG"
+        },{
+            "imgurl": "/static/academic/408.png",
+            "url": "https://youtube.com/playlist?list=PL6r62Jm-wKvs4v7VIUZgPF8Qf863wtskZ&si=tShbMtpns5Ev6HJ8"
+        }
+    ]
+}
